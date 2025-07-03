@@ -18,6 +18,17 @@
     a { color: #0c2340; text-decoration: none; }
     .project img { max-width: 100%; border-radius: 8px; margin-top: 15px; }
     .hero-img { width: 100%; max-height: 320px; object-fit: cover; margin-top: 20px; border-bottom: 6px solid #0c2340; }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 16px;
+      margin-top: 30px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
   </style>
 </head>
 <body>
@@ -38,39 +49,27 @@
       <li>✅ Applied classification models to tag new vs reopened policies – streamlined operations</li>
     </ul>
     <p>🧠 Hands-on with: <strong>Python, SQL, Regression & Classification, Business-Driven ML</strong></p>
+
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1580894908361-967195033215?fit=crop&w=800&q=80" alt="Model Training">
+      <img src="https://images.unsplash.com/photo-1629904853716-f0bc54eea481?fit=crop&w=800&q=80" alt="AI Workflow">
+      <img src="https://images.unsplash.com/photo-1559028012-dc8296b3a63d?fit=crop&w=800&q=80" alt="Data Visualization">
+    </div>
   </section>
 
   <section>
     <h2>Projects Portfolio</h2>
 
-    <div class="project">
-      <h3>HubSpot Data Integration – AAA Client</h3>
-      <p>Designed and deployed multiple SSIS packages to integrate Nav and Smartlogix data into HubSpot. Automated API connections and transferred data securely to SFTP using WinSCP.</p>
-      <span class="tag">ETL</span><span class="tag">SSIS</span><span class="tag">API</span><span class="tag">SQL Server</span><span class="tag">AWS S3</span>
-      <img src="https://images.unsplash.com/photo-1581091870622-9e8f3c0d39e1?fit=crop&w=900&q=80" alt="ETL Process">
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?fit=crop&w=800&q=80" alt="ETL Process">
+      <img src="https://images.unsplash.com/photo-1581092580493-ffb6cf65f6a6?fit=crop&w=800&q=80" alt="Dashboard Reporting">
+      <img src="https://images.unsplash.com/photo-1605902711622-cfb43c4437d7?fit=crop&w=800&q=80" alt="Data Pipeline">
+      <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981d?fit=crop&w=800&q=80" alt="ML Model Flow">
     </div>
 
-    <div class="project">
-      <h3>Premium Loss DW – LAMB</h3>
-      <p>Built a complete data warehouse pipeline across Convelo, Epic, and Aclaimant. Implemented dynamic SQL + Snowflake connections, ETL logic, logging, and job notifications for data refresh workflows.</p>
-      <span class="tag">ETL</span><span class="tag">Snowflake</span><span class="tag">SSIS</span><span class="tag">Insurance</span>
-      <img src="https://images.unsplash.com/photo-1605902711622-cfb43c4437d7?fit=crop&w=900&q=80" alt="Data Warehouse">
-    </div>
-
-    <div class="project">
-      <h3>Interactive Power BI Dashboard – NocoEnergy</h3>
-      <p>Created DAX-driven dashboards to analyze gallons sold by territory. Used temporal logic (YTD, MTD, SPLY), dimensional modeling, and KPI metrics to drive visual insights and strategic reporting.</p>
-      <span class="tag">Power BI</span><span class="tag">DAX</span><span class="tag">Data Modeling</span><span class="tag">Sales Analysis</span>
-      <img src="https://images.unsplash.com/photo-1581092580493-ffb6cf65f6a6?fit=crop&w=900&q=80" alt="Dashboard Analysis">
-    </div>
-
-    <div class="project">
-      <h3>Diamond Price Prediction – ML Pipeline</h3>
-      <p>Built an end-to-end ML workflow from data ingestion to model deployment. Used Flask for web UI, pipeline architecture for preprocessing and model training, and GitHub for code hosting.</p>
-      <span class="tag">Python</span><span class="tag">Machine Learning</span><span class="tag">Flask</span><span class="tag">GitHub</span>
-      <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981d?fit=crop&w=900&q=80" alt="ML Workflow">
-    </div>
-
+    <p style="margin-top: 30px; font-size: 1.1em;">
+      💼 Projects range across advanced ETL automation, end-to-end ML pipelines, DAX-driven Power BI dashboards, and API-driven data integration — blending business needs with technical intelligence.
+    </p>
   </section>
 
   <section>
